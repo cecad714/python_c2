@@ -1,14 +1,10 @@
-
 input_string = input("Enter a string: ")
 
-char_frequency = {} #create a dictionary (key=char and value=count)
+char_frequency = {}
 
 for char in input_string:
-    if char in char_frequency:
-        char_frequency[char] += 1   #counting
-    else:
-        char_frequency[char] = 1
+    char_frequency[char] = char_frequency.get(char, 0) + 1
 
-print("Character frequencies in '"+input_string+"' :")
+print(f"Character frequencies in '{input_string}':")
 for char, count in char_frequency.items():
     print(f"{char} occurs {count} times.")
