@@ -1,9 +1,5 @@
 result = []
 
-
-start = 1000
-end = 9999
-
 start = int(input("Enter the starting range (four-digit number): "))
 end = int(input("Enter the ending range (four-digit number): "))
 
