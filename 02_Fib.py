@@ -1,7 +1,7 @@
 n = int(input("ENTER NUMBER OF N TERMS:"))
 
 if n <= 0:
-    print("Fibonacci series up to n is not defined.")
+    print("Fibonacci series up to ",n," is not defined.")
 else:
     first = 0
     second = 1
