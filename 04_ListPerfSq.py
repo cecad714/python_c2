@@ -10,7 +10,7 @@ else:
     
         if all(int(digit) % 2 == 0 for digit in str(num)):
         
-            root = int(num ** 0.5)  #taking the sqaure root
+            root = int(num ** 0.5)  #taking the square root
             if root * root == num:  #checking if it is a perf_square 
                 result.append(num)  #adding it to the list
 
