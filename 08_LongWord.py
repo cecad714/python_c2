@@ -8,4 +8,4 @@ for word in word_list:
         long_len = curr_len
         long_word = word
 
-print(f"Length of the longest word '{word}'",long_len)
+print(f"Longest word: '{long_word}' with length {long_len}")
